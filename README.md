@@ -1,6 +1,6 @@
 # Gmail Filters Project
 
-Automations for labeling Gmail threads related to NAHS & NAMS Cognos Attendance/Enrollment reports.
+Automation for labeling Gmail threads related to NAHS & NAMS Cognos Attendance/Enrollment reports. This script addresses a limitation of Gmail filtering that doesn't filter emails when the subject is the same, but the attachments have different names. For example, if an email's subject is, "A new version of My Alt HS Attendance/Enrollment Count is available", but the attachment is named either "My Alt <em>MS</em> Attendance/Enrollment Count" or "My Alt <em>HS</em> Attendance/Enrollment Count", this script will look at the title of the attachment and add the appropriate label to the email.
 
 ## Prerequisites
 - Node.js and `clasp` installed
