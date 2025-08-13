@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node/JS (safe even if not used)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Editors/IDEs
+.vscode/
+.history/
+.idea/
+*.code-workspace
+
+# Logs
+logs/
+*.log
+
+# Build/output caches
+coverage/
+dist/
+build/
+.tmp/
+.cache/
+tmp/
+
+# Environment/credentials
+.env
+.env.*
+credentials.json
+client_secret.json
+token.json
+
+# Windows
+Thumbs.db
+
+# Clasp (ignore local binding if you don't want to share scriptId)
+.clasp.json

@@ -1,0 +1,15 @@
+# Ignore everything by default
+**/*
+
+# Allow only files that Apps Script needs
+!appsscript.json           # Manifest
+!**/*.gs                   # Server-side GAS files
+!**/*.js                   # Server-side JS
+!**/*.html                 # HTML Service files (templates/UI)
+
+# Optional: never push common local artifacts (redundant due to first rule, kept for clarity)
+.git/**
+node_modules/**
+.vscode/**
+.DS_Store
+.clasp.json
