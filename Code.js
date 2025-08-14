@@ -1,5 +1,5 @@
 /**
- * Labels NAHS Cognos Attendance/Enrollment reports based on attachment filename.
+ * Labels Cognos Attendance/Enrollment reports based on the attachment filename.
  *
  * Search query:
  *   subject:"A new version of My Alt HS Attendance/Enrollment Count is available" is:unread
